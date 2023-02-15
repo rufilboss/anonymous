@@ -12,18 +12,53 @@
         h1 {
             font-size: 4em;
 
+            position: relative;
+
+            animation: moveText 20s linear infinite;
+
             @media screen and (max-width: 960px) {
                 font-size: 2.5em;
             }
         }
+        @keyframes moveText {
+            0% {
+              transform: translateX(30%);
+            }
+            100% {
+              transform: translateX(-30%);
+            }
+          }
 
         h2 {
             font-size: 2em;
 
+            // position: relative;
+
+            // white-space: nowrap;
+
+            // animation: jumpText 2s ease-in-out 0s infinite;
+
+            // animation-play-state: running;
+
+            // animation-delay: 5s;
+
             @media screen and (max-width: 960px) {
                 font-size: 1.5em;
             }
+
+            // @keyframes jumpText {
+            //     0% {
+            //       transform: translateY(0);
+            //     }
+            //     50% {
+            //       transform: translateY(-40px);
+            //     }
+            //     100% {
+            //       transform: translateY(0);
+            //     }
+            //   }
         }
+        
     }
 
     .Form {
