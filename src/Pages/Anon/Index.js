@@ -87,7 +87,7 @@ function Anon() {
                 </button>
             </form>
             <div className={styles.Hack}>
-                Say what do you think about RUFILBOY or Leave a feedback for
+                Say what you think about RUFILBOY or Leave a feedback for
                 RUFILBOY anonymously using the form above.. 🥰 <br />
                 <br />
                 Thank You!! 😍😊
