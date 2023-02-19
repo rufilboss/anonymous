@@ -16,16 +16,21 @@
 
             animation: moveText 20s linear infinite;
 
+
+
             @media screen and (max-width: 960px) {
                 font-size: 2.5em;
             }
         }
         @keyframes moveText {
             0% {
-              transform: translateX(30%);
+                transform: translateX(10%);
+            }
+            50% {
+                transform: translateX(-10%);
             }
             100% {
-              transform: translateX(-30%);
+                transform: translateX(10%);
             }
           }
 
